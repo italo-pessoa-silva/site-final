@@ -1,0 +1,87 @@
+head, body {
+    background-color: #b0e1ff;   
+}
+h1{
+
+    color: white;
+    font-family:' Amatic SC', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+h4{
+    font-size: 150% ;
+}
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding:0 ;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-around;
+    }
+
+    
+    header{
+        background-color: cyan;
+    list-style-type: none;
+    padding:0 ;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-around;
+    }
+    body {
+        display: block;
+        margin: 8px;
+    }
+
+
+    #web{
+        animation-name: rodadacrescendo;
+        animation-duration:s;
+        animation-timing-function: ease;
+        animation-delay: 0.2s;
+    }
+
+
+    @keyframes rodadacrescendo {
+      0% { background-color: green; color:yellow }
+    25% { background-color: yellow; color:blue }
+    50%{ background-color: blue; color:white }
+    75% { background-color: white; color: green }
+    100% { background-color: green; color:yellow }
+    }
+
+    div:hover {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    }
+
+
+    h4{
+        font-family:' Amatic SC', cursive;
+    font-size: 130%; 
+    }
+
+    .container img {
+        max-width:200px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+   }
+   footer{background-color:darkcyan;
+    text-align: center;
+    font-size: 150%;
+}
+h6{
+    text-align: right;
+    font-size: 150%;
+}
+
+
+  
